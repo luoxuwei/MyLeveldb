@@ -7,7 +7,7 @@
 #include "slice.h"
 #include <string>
 
-namespace leveldb {
+namespace myleveldb {
 
     class Status {
     public:

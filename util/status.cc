@@ -5,7 +5,7 @@
 #include "status.h"
 #include <cstdio>
 
-namespace leveldb {
+namespace myleveldb {
     const char *Status::CopyState(const char *s) {
         size_t size;
         std::memcpy(&size, s, sizeof(size));

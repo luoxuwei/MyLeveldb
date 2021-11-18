@@ -9,7 +9,7 @@
 #include <string>
 #include <cstring>
 
-namespace leveldb {
+namespace myleveldb {
     class Slice {
     public:
         Slice(): data_(""), size_(0) {}
